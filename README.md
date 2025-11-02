@@ -20,11 +20,7 @@ pip install -r requirements.txt
 ```bash
 python backend/main.py
 ```
-
-You should see:
-```
  
-
 ### 4️⃣ Run Frontend (New Terminal)
 
 ```bash
@@ -34,45 +30,7 @@ streamlit run frontend/app.py
 Dashboard opens automatically at **http://localhost:8501**
 
 
-##  Features
-
-###  Real-Time Data Ingestion
-- **Live Binance WebSocket Connection** → BTC/ETH aggregated trades
-- **1-Second VWAP Sampling** → 5-second window aggregation
-- **Resilient Reconnection** → Exponential backoff with jitter
-- **SQLite Persistence** → All ticks and metrics stored locally
-
-### 📈 Advanced Analytics
-- **Price Statistics** → Mean, Std Dev, Min, Max, Volume
-- **Z-Score Analysis** → Mean-reversion detection with thresholds
-- **Moving Averages** → SMA(20), EMA(20)
-- **RSI(14)** → Overbought/oversold detection
-- **Volatility** → GARCH(1,1) forecasting
-- **Correlation** → BTC-ETH rolling correlation
-- **Stationarity** → ADF test for mean reversion
-- **Clustering** → Auto-cluster symbols by correlation
-- **Backtesting** → Mean-reversion strategy validation
-
-### 🎨 Real-Time Dashboard
-- **Animated Price Charts** → Smooth Plotly visualizations
-- **Z-Score Alerts** → Auto-trigger when |z| > 2
-- **Correlation Heatmap** → Live BTC-ETH correlation
-- **RSI & Volatility** → Real-time risk metrics
-- **Trading Signals** → 🟢 LONG / 🔴 SHORT / 🟡 NEUTRAL
-- **Dark Mode Glassmorphism** → Modern neon design
-
-### 🚨 Alert System
-- **Custom Alert Rules** → Configure z-score, volatility, price, RSI thresholds
-- **Persistent Storage** → Rules saved in SQLite
-- **Trigger Logging** → Full audit trail of alerts
-- **Multi-metric Support** → Alert on any computed metric
-
-### 💾 Data Export
-- **CSV Export** → Download analytics as CSV
-- **Time Range Selection** → Export last N hours
-- **API Endpoints** → Programmatic access to all data
-
----
+ 
 
 ## 🏗 Architecture
 
