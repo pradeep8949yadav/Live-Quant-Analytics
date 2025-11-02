@@ -23,7 +23,7 @@ def render_header() -> None:
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<div class="header-title">📊 Binance Live Quant Analytics</div>', unsafe_allow_html=True)
+    st.markdown('<div class="header-title">💹 Live Quant Analytics</div>', unsafe_allow_html=True)
     st.markdown('<div class="header-subtitle">Real-time Trading Dashboard with Advanced Analytics</div>', unsafe_allow_html=True)
     st.markdown("---")
 
