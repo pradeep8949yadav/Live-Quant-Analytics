@@ -1,10 +1,10 @@
-# 📊 Binance Live Quant Analytics Dashboard
+#   Live Quant Analytics Dashboard
 
 A **production-ready, real-time trading analytics system** that ingests live Binance tick data, performs advanced analytics, and displays results in a stunning interactive dashboard.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 🔌 Real-Time Data Ingestion
 - **Live Binance WebSocket Connection** → BTC/ETH aggregated trades
@@ -354,6 +354,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ for Quantitative Traders**
-
-Happy Trading! 📈
+ 
