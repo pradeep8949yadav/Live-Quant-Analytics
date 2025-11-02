@@ -6,7 +6,7 @@ A **production-ready, real-time trading analytics system** that ingests live Bin
 
 ##  Features
 
-### 🔌 Real-Time Data Ingestion
+###  Real-Time Data Ingestion
 - **Live Binance WebSocket Connection** → BTC/ETH aggregated trades
 - **1-Second VWAP Sampling** → 5-second window aggregation
 - **Resilient Reconnection** → Exponential backoff with jitter
@@ -88,10 +88,7 @@ python backend/main.py
 
 You should see:
 ```
-✅ Binance WebSocket connected!
-✅ Database initialized: data/ticks.db
-🚀 Uvicorn running on http://0.0.0.0:8000
-```
+ 
 
 ### 4️⃣ Run Frontend (New Terminal)
 
@@ -132,7 +129,7 @@ Dashboard opens automatically at **http://localhost:8501**
 
 ---
 
-## 🎯 Dashboard Tabs
+##  Dashboard Tabs
 
 ### 📈 Price Analysis
 - Real-time price chart with VWAP
