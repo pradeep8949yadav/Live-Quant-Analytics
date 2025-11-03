@@ -7,46 +7,30 @@ A **production-ready, real-time trading analytics system** that ingests live Bin
  
 ##  Quick Start
 
-### 1️⃣ Prerequisites
+### 1️ Prerequisites
 - Python 3.9+
 - pip
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run Backend
+### 3️ Run Backend
 
 ```bash
 python backend/main.py
 ```
  
-### 4️⃣ Run Frontend (New Terminal)
+### 4️ Run Frontend (New Terminal)
 
 ```bash
 streamlit run frontend/app.py
 ```
 
 Dashboard opens automatically at **http://localhost:8501**
-## Architecture
-```
-The system follows a modular microservice-style architecture consisting of three main layers:
-
-1. Backend (FastAPI)
-Handles WebSocket connections to Binance, processes data, computes analytics, and exposes REST APIs.
-
-2. Frontend (Streamlit)
-Renders live analytics, charts, and alerts in a responsive dashboard interface.
-
-3. Data Layer (SQLite)
-Stores tick data, aggregated metrics, and alert logs efficiently for fast access and persistence.
-
-```
-
  
-
 ## Architecture
 
 ```
@@ -252,22 +236,22 @@ curl -X POST http://localhost:8000/alerts/rules \
 
 ##  Troubleshooting
 
-### ❌ "Backend not responding"
+###  "Backend not responding"
 1. Ensure `python backend/main.py` is running
 2. Check http://localhost:8000/health
 3. Verify port 8000 is not in use
 
-### ❌ "No alerts triggered"
+###  "No alerts triggered"
 1. Check Z-Score threshold (default: 2.0)
 2. View alert rules at `/alerts/rules` endpoint
 3. Monitor alert history in dashboard
 
-### ❌ "No price data"
+###  "No price data"
 1. Verify Binance WebSocket is connected: `/status` endpoint
 2. Check network/firewall allows WebSocket (wss://fstream.binance.com)
 3. View logs in terminal running backend
 
-### ❌ "Dashboard crashes on refresh"
+###  "Dashboard crashes on refresh"
 1. Restart Streamlit: `streamlit run frontend/app.py`
 2. Clear cache: `streamlit cache clear`
 3. Verify backend is still running
