@@ -3,40 +3,27 @@
 A **production-ready, real-time trading analytics system** that ingests live Binance tick data, performs advanced analytics, and displays results in a stunning interactive dashboard.
 
 ---
-
- 
 ##  Quick Start
-
 ### 1️ Prerequisites
 - Python 3.9+
 - pip
-
 ### 2️ Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 3️ Run Backend
-
 ```bash
 python backend/main.py
 ```
- 
 ### 4️ Run Frontend (New Terminal)
-
 ```bash
 streamlit run frontend/app.py
 ```
-
 Dashboard opens automatically at **http://localhost:8501**
- 
-## Architecture
 
-```
 ## Project Structure
 
-
+```
 binance_analytics/
 ├── backend/
 │   ├── main.py              # FastAPI server (port 8000)
@@ -56,12 +43,9 @@ binance_analytics/
 ├── run.bat
 ├── run.sh
 └── README.md
-
-
-```
-
  
-
+```
+ 
 ##  API Endpoints
 
 ### Status & Health
@@ -326,13 +310,13 @@ For issues or questions:
 
 ##  Features Roadmap
 
-- [ ] Additional symbols (BNBUSDT, XRPUSDT, etc)
-- [ ] Machine learning predictions
-- [ ] Paper trading simulation
-- [ ] Telegram/Email alerts
-- [ ] Real-time P&L tracking
-- [ ] Portfolio analytics
-- [ ] Advanced charting (TradingView integration)
+-  Additional symbols (BNBUSDT, XRPUSDT, etc)
+-  Machine learning predictions
+-  Paper trading simulation
+-  Telegram/Email alerts
+-  Real-time P&L tracking
+-  Portfolio analytics
+-  Advanced charting (TradingView integration)
 
 ---
 
