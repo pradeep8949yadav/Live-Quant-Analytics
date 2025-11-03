@@ -38,10 +38,6 @@ Dashboard opens automatically at **http://localhost:8501**
 
 
 binance_analytics/
-├── architecture/
-│   ├── drawio.xml
-│   ├── image.png
-│   └── readme.md
 ├── backend/
 │   ├── main.py              # FastAPI server (port 8000)
 │   ├── data_handler.py      # Binance WebSocket + SQLite
