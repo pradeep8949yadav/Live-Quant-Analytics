@@ -1,8 +1,10 @@
-#   Live Quant Analytics Dashboard
+# Live Quant Analytics Dashboard
 
 A **production-ready, real-time trading analytics system** that ingests live Binance tick data, performs advanced analytics, and displays results in a stunning interactive dashboard.
 
 ---
+
+ 
 ##  Quick Start
 
 ### 1️⃣ Prerequisites
@@ -145,6 +147,29 @@ binance_analytics/
 - Dashboard info
 
 ---
+## Methodology
+
+The analytics engine applies both **statistical** and **machine learning-based** techniques on live market data:
+
+### 1. Z-Score Analysis
+Detects price deviations from the mean to identify potential mean-reversion opportunities.
+
+### 2. RSI (Relative Strength Index)
+Measures market momentum to determine overbought and oversold conditions.
+
+### 3. Volatility Metrics
+Calculated using rolling standard deviation and **GARCH (Generalized Autoregressive Conditional Heteroskedasticity)** models to forecast price volatility.
+
+### 4. Correlation Matrix
+Analyzes inter-symbol relationships (e.g., BTC–ETH) to understand asset dependencies and co-movements.
+
+### 5. Clustering
+Groups assets based on their correlation behavior to identify similar market patterns and dynamics.
+
+### 6. Backtesting Engine
+Simulates mean-reversion and other strategies on historical tick data to evaluate profitability, trade frequency, and risk metrics.
+
+Each computation runs continuously on sampled tick data, ensuring near real-time updates of statistical indicators and strategy performance.
 
 ##  Example Analytics Output
 
