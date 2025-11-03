@@ -1,10 +1,10 @@
-🗂️ Data Description
+Data Description
 
 All real-time and historical data used by the Live Quant Analytics Dashboard is stored locally in a lightweight SQLite database located at:
 
 data/ticks.db
 
-📁 How It Works
+How It Works
 
 The data/ directory serves as the local storage for all collected and processed market data.
 
@@ -12,7 +12,7 @@ When we first start the backend (python backend/main.py or by running the Stream
 
 Database initialization and management are handled by the backend logic inside backend/data_handler.py.
 
-📊 What’s Stored
+What’s Stored
 
 Tick data — real-time trades streamed directly from Binance’s WebSocket (wss://fstream.binance.com/ws/...).
 
@@ -22,7 +22,7 @@ Analytics metrics — calculated features such as moving averages, volatility, z
 
 Alert rules and history — alert conditions and past trigger events configured by users in the dashboard.
 
-🔄 Data Flow
+Data Flow
 
 The backend connects to Binance’s live WebSocket feed.
 
