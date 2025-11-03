@@ -96,4 +96,4 @@ This document provides a detailed overview of the Live Quant Analytics platform 
 
 ---
 
-📊 View the interactive architecture diagram: [architecture.drawio](architecture.drawio)
+View the interactive architecture diagram: [architecture.drawio](image.png)
