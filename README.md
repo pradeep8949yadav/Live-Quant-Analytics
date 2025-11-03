@@ -32,13 +32,13 @@ Dashboard opens automatically at **http://localhost:8501**
 ```
 The system follows a modular microservice-style architecture consisting of three main layers:
 
-### 1. Backend (FastAPI)
+1. Backend (FastAPI)
 Handles WebSocket connections to Binance, processes data, computes analytics, and exposes REST APIs.
 
-### 2. Frontend (Streamlit)
+2. Frontend (Streamlit)
 Renders live analytics, charts, and alerts in a responsive dashboard interface.
 
-### 3. Data Layer (SQLite)
+3. Data Layer (SQLite)
 Stores tick data, aggregated metrics, and alert logs efficiently for fast access and persistence.
 
 ```
