@@ -63,20 +63,16 @@ This document provides a detailed overview of the Live Quant Analytics platform 
 ## Design Decisions
 
 ### SQLite vs PostgreSQL
-- ✅ Zero-config, portable, sufficient for ~1GB/week
-- ❌ Limited concurrent writes
-
+-  Zero-config, portable, sufficient for ~1GB/week
+ 
 ### 5-Second Sampling Window
-- ✅ Balance between real-time and efficiency
-- ❌ May miss sub-5s price movements
+- Balance between real-time and efficiency
 
 ### In-Memory Buffer
-- ✅ Batched writes, VWAP aggregation
-- ❌ Max 5s data loss on crash
+-  Batched writes, VWAP aggregation
 
 ### REST vs WebSocket for Frontend
-- ✅ Simpler, Streamlit-compatible
-- ❌ Higher latency vs push-based updates
+- Simpler, Streamlit-compatible
 
 ## Extensibility
 
