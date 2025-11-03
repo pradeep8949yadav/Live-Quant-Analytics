@@ -32,7 +32,7 @@ Dashboard opens automatically at **http://localhost:8501**
 
  
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ## Project Structure
@@ -67,7 +67,7 @@ binance_analytics/
 
  
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Status & Health
 - `GET /health` → Health check
@@ -98,14 +98,14 @@ binance_analytics/
 
 ##  Dashboard Tabs
 
-### 📈 Price Analysis
+###  Price Analysis
 - Real-time price chart with VWAP
 - RSI indicator (14-period)
 - Z-Score with entry/exit thresholds
 - Volatility visualization
 - Moving averages (SMA + EMA)
 
-### 🧮 Advanced Analytics
+###  Advanced Analytics
 - Statistical summary (mean, std, vol)
 - Correlation heatmap (BTC-ETH)
 - Stationarity test (ADF p-value)
@@ -113,27 +113,27 @@ binance_analytics/
 - Symbol clustering
 - Price history plot
 
-### 🚨 Alerts
+### Alerts
 - Alert rule creator
 - Active rules list with trigger count
 - Alert history with timestamps
 - Sound notification toggle
 - Alert statistics
 
-### 📊 Backtesting
+###  Backtesting
 - Mean-reversion strategy test
 - Trade count, win rate, PnL
 - Entry: Z > 2.0 (SHORT) or Z < -2.0 (LONG)
 - Exit: Z = 0 (mean)
 
-### ⚙️ Settings
+###  Settings
 - CSV export with date range
 - API information
 - Dashboard info
 
 ---
 
-## 🔍 Example Analytics Output
+##  Example Analytics Output
 
 ```json
 {
@@ -157,27 +157,27 @@ binance_analytics/
 
 ---
 
-## 🧪 Testing the System
+##  Testing the System
 
-### 1️⃣ Check Backend Health
+### 1️ Check Backend Health
 
 ```bash
 curl http://localhost:8000/health
 ```
 
-### 2️⃣ Get Status
+### 2️ Get Status
 
 ```bash
 curl http://localhost:8000/status
 ```
 
-### 3️⃣ Get Latest Analytics
+### 3️ Get Latest Analytics
 
 ```bash
 curl http://localhost:8000/analytics/BTCUSDT
 ```
 
-### 4️⃣ Create Alert Rule
+### 4️ Create Alert Rule
 
 ```bash
 curl -X POST http://localhost:8000/alerts/rules \
@@ -193,7 +193,7 @@ curl -X POST http://localhost:8000/alerts/rules \
 
 ---
 
-## 🛠 Configuration
+##  Configuration
 
 ### Backend (`backend/main.py`)
 - **SYMBOLS** → Modify monitored symbols
@@ -212,7 +212,7 @@ curl -X POST http://localhost:8000/alerts/rules \
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### ❌ "Backend not responding"
 1. Ensure `python backend/main.py` is running
@@ -236,7 +236,7 @@ curl -X POST http://localhost:8000/alerts/rules \
 
 ---
 
-## 📊 Data Storage
+##  Data Storage
 
 ### Tables in `data/ticks.db`
 
@@ -250,7 +250,7 @@ curl -X POST http://localhost:8000/alerts/rules \
 
 ---
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 ### Docker
 ```dockerfile
@@ -277,7 +277,7 @@ export KEEP_DATA_DAYS=7
 
 ---
 
-## 📚 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -290,13 +290,13 @@ export KEEP_DATA_DAYS=7
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - Free to use and modify
 
 ---
 
-## 🤝 Support
+##  Support
 
 For issues or questions:
 1. Check terminal output for error messages
@@ -306,7 +306,7 @@ For issues or questions:
 
 ---
 
-## ⭐ Features Roadmap
+##  Features Roadmap
 
 - [ ] Additional symbols (BNBUSDT, XRPUSDT, etc)
 - [ ] Machine learning predictions
