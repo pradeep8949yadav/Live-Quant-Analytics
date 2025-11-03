@@ -35,7 +35,14 @@ Dashboard opens automatically at **http://localhost:8501**
 ## 🏗 Architecture
 
 ```
+## Project Structure
+
+
 binance_analytics/
+├── architecture/
+│   ├── drawio.xml
+│   ├── image.png
+│   └── readme.md
 ├── backend/
 │   ├── main.py              # FastAPI server (port 8000)
 │   ├── data_handler.py      # Binance WebSocket + SQLite
@@ -51,13 +58,14 @@ binance_analytics/
 ├── data/
 │   └── ticks.db             # SQLite database (auto-created)
 ├── requirements.txt
+├── run.bat
+├── run.sh
 └── README.md
+
+
 ```
 
----
-
-
----
+ 
 
 ## 📡 API Endpoints
 
