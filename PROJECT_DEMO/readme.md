@@ -4,5 +4,4 @@
 **THANK YOU!**
 
 [⬇️ Download Project Demo Video](https://github.com/pradeep8949yadav/Live-Quant-Analytics/raw/main/PROJECT_DEMO/project_demo_.mp4)  
-or  
-[▶️ View Video on GitHub](https://github.com/pradeep8949yadav/Live-Quant-Analytics/blob/main/PROJECT_DEMO/project_demo_.mp4)
+
