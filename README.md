@@ -1,6 +1,7 @@
 # Live Quant Analytics Dashboard
 
 A **production-ready, real-time trading analytics system** that ingests live Binance tick data, performs advanced analytics, and displays results in a stunning interactive dashboard.
+You can check working of project in Project Demo( Video Included).
 
 ---
 ##  Quick Start
